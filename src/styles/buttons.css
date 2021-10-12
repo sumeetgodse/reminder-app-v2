@@ -1,0 +1,30 @@
+.add-reminder {
+    color: white;
+    background-color: #2e7d32;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    font-size: large;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+.add-reminder:hover {
+    background-color: #1b5e20;
+    cursor: pointer;
+}
+
+.edit {
+    color: #5c6bc0;
+}
+
+.delete {
+    color: #ef5350;
+}
+
+.edit:hover,.delete:hover {
+    cursor: pointer;
+    color: black;
+}

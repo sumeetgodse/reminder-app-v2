@@ -1,0 +1,65 @@
+.reminder-container {
+    width: 30%;
+    height: 500px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+}
+
+.input-text {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.input-date {
+    padding: 10px;
+}
+
+.input-time {
+    padding: 10px;
+}
+
+.add-reminder-div {
+    display: flex; 
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.reminder-header {
+    background-color: #263238; 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.reminder-header-icon {
+    padding: 20px;
+    color: #ffcc80;
+    font-size: 42px;
+    margin-left: 36%;
+}
+
+.reminder-header-text {
+    font-weight: bolder; 
+    font-family: sans-serif; 
+    font-size: 32px; 
+    padding: 20px; 
+    color: #ffcc80;
+    margin-left: 0%;
+}
+
+.reminder-form {
+    display: flex; 
+    justify-content: center;
+}
+
+.logout {
+    color: white;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
